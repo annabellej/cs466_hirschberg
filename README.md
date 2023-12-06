@@ -8,7 +8,7 @@ Hirschberg's algorithm aims to address the inefficiencies in space for Needleman
 
 In this project, we implement the naive Needleman-Wunsch global alignment algorithm as well as the linear space Hirschberg algorithm. Using randomly generated datasets of DNA/protein sequences, we will compare the execution time and memory usage of these to algorithms over inputs of various sizes. 
 
-Development was done in Python using Google Colab. Our project notebook is included in this repository along with our benchmarking results.
+Development was done in Python using Google Colab. Our project notebook is included in this repository along with our benchmarking results below. 
 
 ## Results:
 
@@ -21,3 +21,10 @@ Development was done in Python using Google Colab. Our project notebook is inclu
 | Memory | Time |
 | ------ | ---- |
 | <img width="624" alt="h_time" src="https://github.com/annabellej/cs466_hirschberg/assets/39597635/1b99ddd4-63b6-45ae-8231-4b24f66237fa"> | <img width="647" alt="h_mem" src="https://github.com/annabellej/cs466_hirschberg/assets/39597635/72924a46-d2b1-4b27-8b0f-eb23c315aac8"> |
+
+Running the entire notebook will produce plots similar to the ones above, depending on the randomized dataset generated each time. The key parts of our implementation are described as follows:
+1. **global_align**: Function for the implementation of the naive Needlman-Wunsch global alignment algorithm. This implementation is the same as the one developed as part of Homework 1.
+2. **hirschberg**: Function for the implementation of the Hirschberg algorithm for linear space global alignment.
+3. **genSequence**: Function to generate a random sequence of DNA with a given length.
+4. **dna_sequences**: Dictionary holding randomly generated DNA sequences of varying lengths from 1 to over 1000. The number of sequences generated per length value is **num_reps**. This value can be increased for more experimental repetition.
+5. **profile_memory_and_time**: Primary function for profiling memory usage and execution time for Needleman-Wunsch and Hirschberg algorithms.
