@@ -12,4 +12,12 @@ Development was done in Python using Google Colab. Our project notebook is inclu
 
 ## Results:
 
-[TODO: insert plots]
+### Needleman-Wunsch
+| Memory | Time |
+| ------ | ---- |
+| <img width="610" alt="nw_time" src="https://github.com/annabellej/cs466_hirschberg/assets/39597635/56bebac8-3cfe-42a0-a70a-c2c3cc5a99e6"> | <img width="629" alt="nw_mem" src="https://github.com/annabellej/cs466_hirschberg/assets/39597635/317cde54-ab14-41c4-81d6-f4eeeb59ffab"> |
+
+### Hirschberg:
+| Memory | Time |
+| ------ | ---- |
+| <img width="624" alt="h_time" src="https://github.com/annabellej/cs466_hirschberg/assets/39597635/1b99ddd4-63b6-45ae-8231-4b24f66237fa"> | <img width="647" alt="h_mem" src="https://github.com/annabellej/cs466_hirschberg/assets/39597635/72924a46-d2b1-4b27-8b0f-eb23c315aac8"> |
